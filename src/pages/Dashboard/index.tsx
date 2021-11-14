@@ -49,7 +49,7 @@ const Dashboard: React.FC = () => {
     api.get('/providers').then((response) => {
       setProviders(response.data);
     });
-  }, [user]);
+  }, []);
 
   return (
     <Container>
